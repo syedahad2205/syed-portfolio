@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/551775c3d2.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Syed Ahad</div>
+                <div class="text-3">and I'm a(an) <span class="typing"></span></div>
+                <a href="mailto: syedahad2205@gmail.com">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/myimage.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Syed and I'm a <span class="typing-2"></span></div>
+                    <p>I’m Syed Ahad from Bengaluru, currently working as a software developer at Reliance. I specialize in developing Android apps and web applications, as well as backend solutions. My technical skills encompass Android native development using Kotlin, Java, XML, and Jetpack Compose, as well as web development with Next.js, React.js, Spring Boot, HTML, JavaScript, and CSS. In my free time, I enjoy travelling and bring high energy to everything I do, especially when it comes to achieving my goals.</p>                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>I can help with the web development with HTML, CSS, JavaScript and Django</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">Advertising</div>
+                        <p>I'm the owner of a online page "Conspience", i can do digital marketing with content creation</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Apps Design</div>
+                        <p>I can help with the android App development with Java, xml, flutter and firebase</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Skills section start -->
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My Skills</h2>
+        <div class="skills-content">
+            <div class="column left">
+                <div class="text">My creative skills & experiences.</div>
+                <p>I have experience in various languages, frameworks, and database systems. My primary focus is on Android development, where I work with Kotlin, Java, XML, and Jetpack Compose. I also specialize in web development using Next.js, React.js, Spring Boot, HTML, JavaScript, and CSS. Additionally, I enjoy graphic design and content creation for my science-focused Instagram page, "CONSCIENCE," using tools like Adobe Photoshop. I am dedicated to continuous growth as an engineer and an individual, thriving in environments that allow me to develop my skill set.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span class="one">Android Development (Kotlin, Java)</span>
+                        <span class="two">Web Development (Next.js, React.js)</span>
+                        <span class="one">Spring Boot</span>
+                        <span class="two">HTML/CSS/JavaScript</span>
+                        <span class="one">Database Management (MySQL)</span>
+                        <span class="one">Content Creation</span>
+                        <span class="two">Data Structures and Algorithms</span>
+                        <span class="one">Cloud Services (AWS)</span>
+                        <span class="two">MS Excel</span>
+                        <span class="one">MS Office</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- projects section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/portfolio.JPG" alt="">
+                        <div class="text">1. My Portfolio</div>
+                        <p>A Portfolio made up using HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/logo.jpeg" alt="">
+                        <div class="text">2. Project Conspience</div>
+                        <p>It is a online web page designed for science enthusiast and place where content is being uploaded. Working as a content creator and
+                            graphic designer.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/cashierf.jpg" alt="">
+                        <div class="text">3. Cashier-less Store</div>
+                        <p>A store without a cashier. In this project a camera is used to tag a person which uses technology of computer vision and a barcode reader at the exit gate to scan the qr code generated on the application.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/covidapp.jpg" alt="">
+                        <div class="text">4. COVID 19 Tracker</div>
+                        <p>This is an Android application which uses Rest API and JSON format to gather information and display current status of COVID 19 around the world
+                            among the people in a GUI view. It shows the status of every country.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/buggy.jpg" alt="">
+                        <div class="text">5. Line Follower Buggy</div>
+                        <p>In this Project, a buggy follows a black line with the help of a sensor and also detect object in front of it and stops accordingly.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/charity.jpg" alt="">
+                        <div class="text">6. A Charity Website</div>
+                        <p>We made a website in which people can donate their clothes, food, and other useful things to NGO's. We made a payment gateway
+                            to donate money and used PHP for backend and HTML, CSS and javascript for Frontend.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/cproject.JPG" alt="">
+                        <div class="text">7. Shoe Shop</div>
+                        <p>it is a project written in c++ programming language. Customers can buy products and there is a cart in which all the products get
+                            added to it and the customer can finally buy them. This project is only a prototype that works on the C++ platform only.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>I can help with the technology above and feel free to contact me, just fill the form or you can drop a mail to me.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Syed Ahad</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Delhi, India</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title"><a href="mailto: syedahad2205@gmail.com">syedahad2205@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="https://formspree.io/f/mbjqyrzj" method="POST" id="my-form">
+                        <div class="fields">
+                            <div class="field name">
+                                <input name="name" type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input name="email" type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input name="subject" type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea name="message" cols="30" rows="10" placeholder="Describe project..." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                    <div id="status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="#">Syed Ahad</a> | <span class="far fa-copyright"></span> 2021 all rights reserved</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
