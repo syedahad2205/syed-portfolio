@@ -25,7 +25,7 @@ $(document).ready(function(){
 
     // typing animation script
     var typed = new Typed(".typing",{
-        strings: ["Engineer","Developer","Designer","Cyber Specialist"],
+        strings: ["Engineer","Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -33,7 +33,7 @@ $(document).ready(function(){
 
     // home animation
     var typed = new Typed(".typing-2",{
-        strings: ["Engineer","Developer","Designer","Cyber Specialist"],
+        strings: ["Engineer","Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
